@@ -1,0 +1,14 @@
+apex_dma/build
+.vs/
+.vscode/
+x64/
+mybin/
+mybin_dbg/
+target/
+*.o
+*.rs.bk
+*.swp
+*.dll
+*.dylib
+Cargo.lock
+*.so
