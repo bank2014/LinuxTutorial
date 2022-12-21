@@ -17,7 +17,7 @@
     #define OFFSET_ABS_VELOCITY         0x140 //m_vecAbsVelocity
     #define OFFSET_VISIBLE_TIME         0x1a70 //CPlayer!lastVisibleTime
     #define OFFSET_ZOOMING      		0x1c31 //m_bZooming
-    #define OFFSET_YAW                  0x228c - 0x8 //m_currentFramePlayer.m_ammoPoolCount - 0x8
+    #define OFFSET_YAW                  0x0030 - 0x8 //m_currentFramePlayer.m_ammoPoolCount - 0x8
 
     #define OFFSET_LIFE_STATE			0x798  //m_lifeState, >0 = dead
     #define OFFSET_BLEED_OUT_STATE		0x2718 //m_bleedoutState, >0 = knocked
@@ -25,7 +25,7 @@
     #define OFFSET_ORIGIN				0x014c //m_vecAbsOrigin
     #define OFFSET_BONES				0x0e98 + 0x48 //m_nForceBone + 0x48
     #define OFFSET_STUDIOHDR            0x10f0 //CBaseAnimating!m_pStudioHdr
-    #define OFFSET_AIMPUNCH				0x2488 //m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
+    #define OFFSET_AIMPUNCH				0x0040 //m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
     #define OFFSET_CAMERAPOS			0x1f28 //CPlayer!camera_origin
     #define OFFSET_VIEWANGLES			0x2584 - 0x14 //m_ammoPoolCapacity - 0x14
     #define OFFSET_BREATH_ANGLES		OFFSET_VIEWANGLES - 0x10
